@@ -241,7 +241,7 @@ function App() {
               <div className="hero_left">
                 <h1>{data[index].name}</h1>
                 <div className="ball">
-                  <h2>{data[index].price}$</h2>
+                  <h2>{count*data[index].price}$</h2>
                   <div className="stars">
                     <h2>⭐⭐⭐⭐⭐</h2>
                     <p>
